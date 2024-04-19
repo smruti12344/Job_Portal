@@ -1,9 +1,0 @@
-INDEX VERSION 1.134
-D:\J2EE_Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2290456663.index
-\Job_portal\src\main\resources
-D:\J2EE_Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1942866012.index
-\Online_jobPortal\src\main\resources
-D:\J2EE_Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1706644.index
-\Job_Portal\src\main\resources
-D:\J2EE_Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1952037761.index
-\Job_portal\src\main\resources

@@ -1,7 +1,0 @@
-package com.DAO;
-
-import javax.servlet.http.HttpServlet;
-
-public class EditJobServlet  extends HttpServlet{
-
-}
