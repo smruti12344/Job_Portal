@@ -1,0 +1,8 @@
+package com.Servlet;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet("/addJob")
+public class RegisterJobServlet extends HttpServlet {
+
+}

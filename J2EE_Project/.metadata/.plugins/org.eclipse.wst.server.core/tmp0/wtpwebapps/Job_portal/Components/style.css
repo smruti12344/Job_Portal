@@ -1,0 +1,24 @@
+.bg-custom{
+	background-color: blue !important ;
+}
+.navbar-brand{
+	color: white;
+	font-size: 30px;
+	user-select: none;
+}
+.navbar-brand:hover{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	cursor:auto;
+}
+.navbar .nav-item .nav-link{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.navbar .nav-item:hover .nav-link{
+	background: white;
+	color: black;
+	border-radius: 10px;
+	cursor: pointer;
+}

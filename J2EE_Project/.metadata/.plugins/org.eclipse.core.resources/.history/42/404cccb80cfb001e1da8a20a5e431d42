@@ -1,0 +1,43 @@
+package com.Servlet;
+
+import java.io.IOException;
+import com.Bean.*;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+@SuppressWarnings("serial")
+@WebServlet("/addJob")
+public class RegisterJobServlet extends HttpServlet {
+@Override
+protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		try {
+			res.setContentType("text/html");
+			//set-type
+			JobBean ub = new JobBean();
+			//obj-userBean-set data-from web
+			ub.setuName(req.getParameter("Uname"));
+			ub.setpWord(req.getParameter("Upwd"));
+			ub.setfName(req.getParameter("Fname"));
+			ub.setlName(req.getParameter("Lname"));
+			ub.setAddr(req.getParameter("Add"));
+			ub.setmId(req.getParameter("Umail"));
+			ub.setPhNo(Long.parseLong(req.getParameter("Uph")));
+			
+			int k= new RegisterDAO().register(ub);
+			if(k>0) {
+				pw.println("register successfully");
+				RequestDispatcher rd=req.getRequestDispatcher("index.html");
+				rd.include(req, res);
+				
+			}
+			
+
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

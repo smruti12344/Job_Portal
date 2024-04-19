@@ -1,0 +1,8 @@
+package com.Servlet;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet("/update")
+public class ProfileUpdateServlet extends HttpServlet {
+
+}

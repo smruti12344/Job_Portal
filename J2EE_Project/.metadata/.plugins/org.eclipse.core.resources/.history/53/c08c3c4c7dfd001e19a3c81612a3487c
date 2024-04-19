@@ -1,0 +1,9 @@
+package com.Servlet;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@SuppressWarnings("serial")
+@WebServlet("/update")
+public class ProfileUpdateServlet extends HttpServlet {
+
+}

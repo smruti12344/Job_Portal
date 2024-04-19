@@ -1,0 +1,31 @@
+package com.DAO;
+import com.Bean.*;
+import java.sql.Connection;
+
+public class JobDAO {
+	public int k=0;
+	public int addJob(JobBean ub) {
+		
+		try {
+			Connection con = DBConnection.getCon();
+			//connection from data-base
+			PreparedStatement ps = con.prepareStatement("insert into userreg52 values(?,?,?,?,?,?,?)");
+		    //preparedStatement
+			
+			//setting data to preparedStatement obj
+			ps.setString(1, ub.getuName());
+			ps.setString(2, ub.getpWord());
+			ps.setString(3, ub.getfName());
+			ps.setString(4, ub.getlName());
+			ps.setString(5, ub.getAddr());
+			ps.setString(6, ub.getmId());
+			ps.setLong(7, ub.getPhNo());
+			k=ps.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return k;
+	}
+
+}

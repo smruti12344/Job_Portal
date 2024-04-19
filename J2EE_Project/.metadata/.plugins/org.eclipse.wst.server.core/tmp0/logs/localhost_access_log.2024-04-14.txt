@@ -1,0 +1,15 @@
+127.0.0.1 - - [14/Apr/2024:10:55:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:10 +0530] "GET /Job_portal/ HTTP/1.1" 200 2797
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:10 +0530] "GET /Job_portal/Components/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:10 +0530] "GET /Job_portal/image/img1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:10 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:32 +0530] "GET /Job_portal/admin.jsp HTTP/1.1" 200 2783
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:35 +0530] "GET /Job_portal/add_job.jsp HTTP/1.1" 200 6093
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:39 +0530] "GET /Job_portal/View.jsp HTTP/1.1" 200 3781
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:42 +0530] "GET /Job_portal/index.jsp HTTP/1.1" 200 2797
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:43 +0530] "GET /Job_portal/admin.jsp HTTP/1.1" 200 2783
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:43 +0530] "GET /Job_portal/index.jsp HTTP/1.1" 200 2797
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:45 +0530] "GET /Job_portal/signin.jsp HTTP/1.1" 200 3647
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:48 +0530] "GET /Job_portal/signup.jsp HTTP/1.1" 200 4280
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:53 +0530] "GET /Job_portal/signin.jsp HTTP/1.1" 200 3647
+0:0:0:0:0:0:0:1 - - [14/Apr/2024:10:55:55 +0530] "GET /Job_portal/signup.jsp HTTP/1.1" 200 4280
